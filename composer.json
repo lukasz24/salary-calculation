@@ -1,0 +1,13 @@
+{
+  "name": "LPudzisz/TaxCalculation",
+  "autoload": {
+    "psr-4": {
+      "LPudzisz\\": "src/"
+    }
+  
+  },
+  "require": {
+    "phpunit/phpunit": "^4.8"
+  }
+}
+

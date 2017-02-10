@@ -1,0 +1,68 @@
+<style>
+
+html, body {
+    margin:0;
+    padding:0;
+    background-color: blue;
+  }
+
+html {
+    height: 100%;
+  }
+
+body {
+     
+    
+	background-color: #002a54;	  
+}
+
+div.window {
+	
+}
+div.frame {
+
+	margin: 0 auto;
+	float: center;
+	opacity: 0.9;
+	text-align: center;
+	width: 50%;
+	height: 100%;
+	border-radius: 10px 10px 0px 0px; 
+	background-color: silver; 
+	
+}
+div#powrot {
+	
+	text-align: center;
+	width: 0px auto;
+	background-color: white;
+	 height: 0;
+           overflow-x: visible;
+	
+}
+div#powrot, a{
+	color: red;
+	text-decoration: none;
+	display: block;
+	box-shadow: 0 0 8px 1px #555 inset;
+}
+ div#powrot, a:onblur {
+	color: pink;
+	background-color: #FFF;
+	box-shadow: 0 0 8px 1px #CCC inset;
+	font-weight: bold;
+	text-decoration: none; 
+}
+div#stopka {
+	padding-top: 10px;
+	bottom: 0;
+	margin: 0 auto;
+		width: 99%;
+		 height: 30px;
+		float: center;
+		 background-color: #e04b27;
+		text-align: center;
+		border-radius: 15px 15px 0px 0px ; 
+		position: absolute;
+}
+</style>
